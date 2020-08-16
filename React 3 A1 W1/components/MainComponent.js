@@ -1,0 +1,31 @@
+import React, {Component} from 'react';
+import {Navbar,NavbarBrand} from 'reactstrap';
+import Menu from './components/MenuComponents';
+import {DISHES} from './Shared/Dishes';
+
+class App extends Component {
+
+  constructor(props)
+  {
+    super(props);
+
+    this.state = {
+      dishes: DISHES
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <Navbar dark color="primary">
+          <div className="container">
+            <NavbarBrand href="/" >Learning React</NavbarBrand>
+          </div>
+        </Navbar>
+        <Menu dishes={this.state.dishes}/> 
+      </div>
+    );
+  }
+}
+//import { from } from 'rxjs';
+export default App;

@@ -1,0 +1,9 @@
+redux middleware --> used for performing 
+some task on Actions before sending it store
+
+Thunk --> is subroutine used to inject
+additional calculation in another subroutine
+
+Redux Thunk --> is middleware allows to
+write action creators that return a fcuntion
+instead of an action

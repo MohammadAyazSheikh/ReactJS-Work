@@ -1,0 +1,37 @@
+1)npm install -g create-react-app@1.5.2 or (yarn global add create-react-app@1.5.2)
+
+create-react-app --help
+2)create-react-app [project name]
+
+
+
+
+=============ADD Bootsrap===============
+3)yarn add bootstrap@4.0.0
+
+4)yarn add reactstrap@5.0.0
+5)yarn add react-popper@0.9.2
+
+
+
+---add bootstrap and reactstrap in index.js----
+
+6)import 'bootstrap/dist/css/bootstrap.min.css'; //put this line above your index.js file
+
+7) import { Navbar, NavbarBrand } from 'reactstrap'; //import in App.js file
+
+--------------download then import in indesx.js--------
+8) yarn add font-awesome@4.7.0 
+9)yarn add bootstrap-social@5.1.1
+
+----------------------React ROuter-------------------
+10)yarn add react-router-dom@4.2.2
+ 10.1) import { BrowserRouter } from 'react-router-dom'; in App.js
+
+ 10.2) import {Switch,Route,Redirect} from 'react-router-dom'; in maincomppnent
+ 10.3) import Home from './HomeComponent'; in maincomponent
+ 10.4) ipmport in headercomponrnt
+	import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+	import { NavLink } from 'react-router-dom';
+
+

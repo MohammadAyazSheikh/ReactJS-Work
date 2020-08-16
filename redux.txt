@@ -1,0 +1,27 @@
+==============redux===========
+yarn add redux@3.7.2
+yarn add react-redux@5.0.7
+
+remove all export of comnt,dishes ets into reducer.js
+and move all stats from main.js to reducer.js
+
+
+provider component allows us to so redux store availble to all compenent in react 
+
+mapStoreToProps fucntion allow us to transfer store from redux store to the props in react
+
+
+connect fucntion connect with redux with react
+
+========Redux From========
+yarn add react-redux-form@1.16.8
+
+=============Thunk=============
+yarn add redux-thunk@2.2.0
+yarn add redux-logger@3.0.6
+
+=======Fetch========
+npm install json-server -g
+json-server --watch db.json -p 3001 -d 2000
+
+    

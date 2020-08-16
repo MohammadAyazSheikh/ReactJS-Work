@@ -1,0 +1,12 @@
+1) divide reducer.js fcuntion for separate each state redcuder for dish.js,comment.js,promotion etc
+
+2)make a file "actionType.js" for each action we will perform and string variable for action name
+
+3)make a file "actionCreator" and define fucntion for creating action for each state
+( we created "addCmment" action in this file)
+
+4) now in comment.js reducer set "addcomment" action tha we define in "actionCreator.js"
+
+5) now in main comppnent map addComment action in the main component props by using  "mapDispatchToProps" fucntion
+
+6) ab dishtail,comment comp aur iske jehan jehan comment sate use ho raha waha nke props main daldo "addComment" action

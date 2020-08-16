@@ -1,0 +1,8 @@
+=====Thunk=====
+step 1: starts from configureStore.js
+
+2) import  applyMiddleware and logger 
+
+
+=====Form Revisted=====
+start from form.js file in redux folder
